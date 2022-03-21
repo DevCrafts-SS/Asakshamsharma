@@ -5,7 +5,11 @@ body{
     overflow: hidden;
     background: linear-gradient(148deg, black, rgb(0,18,25) 58%, #000000 100%);
 }
-
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
 h1{
     font-family: Audiowide, serif;
     font-size: calc(1.8rem + 3vw);
