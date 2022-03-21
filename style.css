@@ -31,6 +31,11 @@ h1{
     transform:scale(1.5);color:#fff
 }
 
+@media only screen and (max-width: 580px) {
+  h1{
+    font-size: calc(1.8rem + 2.2vw);
+  }
+}
 @media only screen and (max-width: 500px) {
   h1{
     font-size: calc(1.6rem + 2vw);
