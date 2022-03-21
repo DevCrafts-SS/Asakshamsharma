@@ -3,20 +3,6 @@ body{
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-
-}
-@media only screen and (max-width: 500px) {
-  body {
-    background: linear-gradient(148deg, black, rgb(0,18,25) 58%, #000000 100%);
-   }
-  h1{
-    font-size: calc(0.8rem + 2vw);
-  }
-}
-@media only screen and (max-width: 415px) {
-  h1{
-    font-size: 20px;
-  }
 }
 h1{
 /*    font-family: Audiowide, serif;  */
@@ -43,3 +29,18 @@ h1{
 .social-icons i:hover{
     transform:scale(1.5);color:#fff
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    background: linear-gradient(148deg, black, rgb(0,18,25) 58%, #000000 100%);
+   }
+  h1{
+    font-size: calc(0.8rem + 2vw);
+  }
+}
+@media only screen and (max-width: 415px) {
+  h1{
+    font-size: 20px;
+  }
+}
+
