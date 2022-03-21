@@ -35,12 +35,6 @@ h1{
     background: linear-gradient(148deg, black, rgb(0,18,25) 58%, #000000 100%);
    }
   h1{
-    font-size: calc(0.8rem + 2vw);
+    font-size: calc(1.8rem + 2vw);
   }
 }
-@media only screen and (max-width: 415px) {
-  h1{
-    font-size: 20px;
-  }
-}
-
