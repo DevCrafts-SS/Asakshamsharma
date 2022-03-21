@@ -13,6 +13,7 @@ h1{
 .social-icons{
     color:#313437;
     text-align:center;
+    background: linear-gradient(80deg, black, rgb(0,18,25) 58%, #000000 100%);
 }
 .social-icons i{
     transition:.25s;
