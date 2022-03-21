@@ -1,9 +1,10 @@
 
 body{
- /*   height: 100vh;
-    width: 100vw;   */
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
-    background: linear-gradient(148deg, black, rgb(0,18,25) 58%, #000000 100%);
+/*  background: linear-gradient(148deg, black, rgb(0,18,25) 58%, #000000 100%); */
+    background: #d35n35;  
 }
 h1{
     font-family: Audiowide, serif;
